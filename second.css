@@ -1,0 +1,656 @@
+body {
+    color: #d6d6d6;
+    font: 24px Georgia, sans-serif;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(70,70,70,0) 50%, rgba(0, 0, 0, 0.7) 100%), url(C://Users/Asus/Desktop/www/images/levitanFon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    z-index: -10;
+    user-select: none;
+}
+#FirstTop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lavina1 {
+    color: #9e9e9e;
+    font: 220% Georgia, sans-serif;
+    display: inline-block;
+}
+.lavina2 {
+    color: #ffffff;
+    font: 220% Georgia, sans-serif;
+    display: inline-block;
+}
+#logo {
+    margin-top:2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+    display: flex;
+    margin-bottom:5%;
+    opacity: 0; 
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#text-slide-top1 {
+    position: relative;
+    animation: animatetop1 2s;
+    animation-fill-mode: both;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+@keyframes animatetop1 {
+    0% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    50% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+#text-slide-top2 {
+    position: relative;
+    animation: animatetop2 4s;
+    animation-fill-mode: both;
+    margin-bottom:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: #e0e0e0;
+    font: 150% Georgia, sans-serif;
+}
+@keyframes animatetop2 {
+    0% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    75% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+#text-slide-top3 {
+    position: relative;
+    animation: animatetop3 6s;
+    animation-fill-mode: both;
+    margin-bottom:10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #dadada;
+    font: 150% Georgia, sans-serif;
+}
+@keyframes animatetop3 {
+    0% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    84% {
+        bottom: -60px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+#Block1{
+    color:#000000;
+    background: linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(248, 248, 248) 100%);
+    width: 100%;
+    height: 100hv;
+}
+#Otexe{
+    font: Georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#OtexeColumn{
+    padding-left: 2%;
+    vertical-align: top;
+    display: inline-block;
+    width: 44%;
+    margin-top: 12%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+#FotoTex{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+    margin-top: 12%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 12%;
+}
+#BlockDiagramm{
+    color:#000000;
+    background: linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(248, 248, 248) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    z-index: -9;
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+}
+#DiaTextH2{
+    font: Georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#DiaText{
+    font: 90% Georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+    width: 85%;
+}
+.DivDia{
+    position: relative;
+    font: 90% Georgia, sans-serif;
+    color:#6e6e6e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+}
+#BlockDiaDivFotos{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    overflow: hidden;
+}
+.BlockDiaFoto{
+    width: 100%;
+    background-size: cover;
+}
+#BlockDiaFull{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.BlockDiaButton {
+    color:#000000;
+    background: #ffffff00;
+    font: 100% Georgia, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    height: 8vh;
+    width: 8vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:#00000015;
+    transition: 1s;
+}
+.BlockDiaButton:hover {
+    background-color:#0000003b;
+    transition: 1s;
+}
+@media (any-hover: hover) {
+    .BlockDiaButton:hover {
+        background-color: #00000033;
+        transition: 1s;
+    }
+}
+.BlockDia-text-slide-left {
+    position: relative;
+    animation: animateBlockDiaLeft 1s;
+    animation-fill-mode: both;
+}
+@keyframes animateBlockDiaLeft {
+    0% {
+        left: 30px;
+        opacity: 0.8;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+.BlockDia-text-slide-right {
+    position: relative;
+    animation: animateBlockDiaRight 1s;
+    animation-fill-mode: both;
+}
+@keyframes animateBlockDiaRight {
+    0% {
+        right: 30px;
+        opacity: 0.8;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+#Block2{
+    background-image: url(C://Users/Asus/Desktop/www/images/Block2Foto2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    z-index: -9;
+    height: 120vh;
+}
+#ConteinerBlock2{
+    color:#000000;
+    background: #ffffffec;
+    width: 60%;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+}
+#Block2H1{
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 0%;
+}
+.Block2Text{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+#Block2Podrobnee{
+    color:#919191;
+    font: 70% Georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Block2Button {
+    color:#000000;
+    background: #ffffff00;
+    font: 100% Georgia, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+    transition: 1s;
+}
+.Block2Button:hover {
+    background-color:#74747433;
+    transition: 1s;
+}
+@media (any-hover: hover) {
+    .Block2Button:hover {
+        background-color: #74747433;
+        transition: 1s;
+    }
+}
+.Visable {
+    display: block;
+}
+.Unvisable {
+    display: none;
+}
+.Block2-text-slide-left {
+    position: relative;
+    animation: animateBlock2Left 1s;
+    animation-fill-mode: both;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font: Georgia, sans-serif;
+}
+@keyframes animateBlock2Left {
+    0% {
+        left: 60px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+#Block3{
+    color:#000000;
+    background-image: linear-gradient(90deg, rgba(187, 187, 187, 0.1) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 70%, rgb(187, 187, 187, 0.1) 100%), url(C://Users/Asus/Desktop/www/images/Block3Svg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    z-index: -9;
+    width: 100%;
+    height: 111vh;
+    display: flex;
+    flex-direction: column;
+}
+#Block3Vnedrenie{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Block3Btns{
+    display: flex;
+    flex-direction: column;
+}
+.Block3Button{
+    margin-bottom: 5%;
+    height: 8vh;
+    width: 14vh;
+    border: 0.5vh solid #fafafa;
+    color:#dadada;
+    font: 110% Georgia, sans-serif;
+    background-color: #00000000;
+    transition: 1s;
+}
+.Block3DivBtns{
+    display:flex; 
+    flex-direction: row;
+    width: 80%;
+}
+.Otstyp{
+    margin-left: 6%;
+}
+.Block3Button1{
+    margin-left: 10.4%;
+}
+.Block3Button2{
+    margin-left: 8.6%;
+}
+.Block3Button3{
+    margin-left: 6.6%;
+}
+.Block3Button:hover {
+    background-color:#74747433;
+    transition: 1s;
+}
+@media (any-hover: hover) {
+    .Block3Button:hover {
+        background: radial-gradient(#ffffff1a, #ffffff00);
+        transition: 1s;
+    }
+}
+#PodBlock3Div_0{
+    color:#919191;
+    font: 100% Georgia, sans-serif;
+    margin-left: auto;
+    padding-left: 10%;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+}
+#Block4{
+    color:#000000;
+    background: linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(248, 248, 248) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    z-index: -9;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#Block4Sami{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Block4QRSh{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow: hidden;
+}
+#Block4Shagi{
+    color:#333333;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left:4%;
+    padding-left: auto;
+    padding-right: auto;
+}
+#Block4QR{
+    display: flex;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Block4H3{
+    margin-top: 6%;
+}
+#Block4DivFotos{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    overflow: hidden;
+}
+.Block4Foto{
+    width: 100%;
+    background-size: cover;
+}
+#Block4Full{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Block4Button {
+    color:#000000;
+    background: #ffffff00;
+    font: 100% Georgia, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    height: 8vh;
+    width: 8vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:#00000015;
+    transition: 1s;
+}
+.Block4Button:hover {
+    background-color:#0000003b;
+    transition: 1s;
+}
+@media (any-hover: hover) {
+    .Block4Button:hover {
+        background-color: #00000033;
+        transition: 1s;
+    }
+}
+.Block4-text-slide-top {
+    position: relative;
+    animation: animateBlock4Top 1s;
+    animation-fill-mode: both;
+}
+@keyframes animateBlock4Top {
+    0% {
+        bottom: 30px;
+        opacity: 0.8;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+.contact-form {
+
+}
+.contact-form__title {
+
+}
+.contact-form__message {
+
+}
+.contact-form__input_name {
+
+}
+.contact-form__input_name:focus {
+
+}
+.contact-form__input_phone {
+
+}
+.contact-form__input_phone:focus {
+
+}
+.contact-form__input_file {
+    display: none; 
+}
+.contact-form__file-button {
+
+}
+.contact-form__button {
+
+}
+.contact-form__button:hover {
+
+}
+.preloader {
+    position: relative;
+    margin: 0 0 0 45%;
+    height: 15px;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    transition: 0.3s; }
+    .preloader_active {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      transition: 0.3s; }
+    .preloader:before {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      content: "";
+      position: absolute;
+      background: #393e46;
+      animation: preloader_before 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
+    .preloader:after {
+      width: 12px;
+      height: 12px;
+      left: 15%;
+      border-radius: 50%;
+      content: "";
+      position: absolute;
+      background: #5f646c;
+      animation: preloader_after 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
+  
+  @keyframes preloader_before {
+    0% {
+      transform: translateX(0px) rotate(0deg); }
+    50% {
+      transform: translateX(160px) scale(1.5) rotate(264deg);
+      background: #00adb5;
+      border-radius: 0; }
+    100% {
+      transform: translateX(0px) rotate(0deg); } }
+  @keyframes preloader_after {
+    0% {
+      transform: translateX(0px) rotate(0deg); }
+    50% {
+      transform: translateX(-160px) scale(1.5) rotate(-264deg);
+      background: #00fff5;
+      border-radius: 0; }
+    100% {
+      transform: translateX(0px); } }
+  @media (max-width: 768px) {
+    .form-wrapper {
+      padding: 15px; } }
+  @media (max-width: 480px) {
+    .contact-form {
+      padding: 30px 15px; }
+      .contact-form__title {
+        font-size: 16px; } }
+  
